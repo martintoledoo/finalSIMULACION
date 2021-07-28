@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <title>Final Sim</title>
+</head>
+<body>
+    <h1 class="titulo">Final SIM Ej 336</h1>
+
+    <div class="inputs">
+        <label for="">Cantidad de eventos a simular</label>       
+        <input type="text" id="cantEventos" size="6">
+        <br>
+        <label for="">Ver desde</label>
+        <input type="text" id="mostrarDesde" size="6">
+        <br>
+        <label for="">Ver hasta</label>
+        <input type="text" id="mostrarHasta" size="6">
+        <br>
+        <label for="">Media de la distribucion</label>
+        <input type="text" id="media" size="6">
+        <br>
+        <label for="">Seleccionar cantidad de Reparadores</label>
+        <select name="" id="selector">
+            <option value="0"> -- Seleccionar -- </option>
+            <option value="1">1 Reparador</option>
+            <option value="2">2 Reparadores</option>
+            <option value="3">3 Reparadores</option>        
+            <option value="4">4 Reparadores</option>        
+        </select>
+        <br>
+        <button class="btn" id="btnAceptar">Simular</button>
+        <input type="checkbox" id="btnCheckBox"> Mostrar todas las tablas
+    </div>
+
+    <div class="metricas">
+        <table id="tablaMetricas">
+
+        </table>
+    </div>
+
+    <div class="container">
+       
+        <table id="tabla1">
+
+        </table>
+
+        <table id="tabla2">
+
+        </table>
+
+        <table id="tabla3">
+
+        </table>
+
+        <table id="tabla4">
+
+        </table>
+    </div>
+
+
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

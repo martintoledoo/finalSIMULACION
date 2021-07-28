@@ -1,0 +1,134 @@
+body {
+    margin: 0 20px;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #131313;
+    color: white;
+
+}
+
+.titulo{
+    color: teal;
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 4px;
+}
+
+.inputs {
+    font-size: 20px;
+}
+
+#selector {
+    background: rgb(22, 88, 143);
+    font-size: 15px;
+    padding: 5px 0;
+    letter-spacing: 1px;
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn {
+    margin: 30px;
+    padding: 5px;
+    font-size: 20px;
+    background-image: linear-gradient(
+    225deg,
+    #26caf8, 
+    #27d86c);
+    border-radius: 30px;
+    width: 150px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.btn:hover {
+    transform: translate(0, -6px);
+    box-shadow: 10px -10px 25px 0 rgba(143, 64, 248, 0.5), -10px 10px 25px 0 rgba(39, 200, 255, 0.5);
+    background-image: linear-gradient(
+        225deg,
+        #c625d0,
+        #26caf8);
+    transition: 0.3s;
+}
+
+#tabla1, #tabla2, #tabla3, #tabla4{ 
+    display: none;
+    font-family:'Poppins', sans-serif;
+    width: 100%;
+    margin: 100px auto;
+    background:  #26537c;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+#tablaMetricas { 
+    display: none;
+    font-family:'Poppins', sans-serif;
+    width: 50%;
+    margin: 100px auto;
+    background:  #26537c;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+#estadoReparador1 {
+    color: #d0dfa1;
+    width: 150px;
+    font-weight: bold;
+}
+
+#estadoReparador2 {
+    width: 150px;
+}
+
+
+
+td, th {
+    border: 1px solid #0c0c0c;
+    padding: 8px;
+}
+th {
+    background: #0a1e2e;
+    color: white;
+    font-weight: bold;
+}
+
+.proxEvento{
+    background: #26b291;
+    color: rgb(10, 10, 10);
+    font-weight: bold;
+
+}
+
+.estadoEnUso{
+    background: #0c2940;
+    color: white;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.estadoSiendoReparado{
+    background: #69d597;
+    color: rgb(10, 10, 10);
+    font-weight: bold;
+    padding: 3px;
+
+}
+
+.esperandoReparacion{
+    background: #d0dfa1;
+    color: rgb(10, 10, 10);
+    font-weight: bold;
+    padding: 3px;
+
+}
+
+.menorTotal{
+    background: #69d597;
+    color: rgb(10, 10, 10);
+    font-weight: bold;
+    padding: 3px;
+
+}
